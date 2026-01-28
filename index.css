@@ -46,7 +46,7 @@ a {
 
 .hero-secondary-text {
   color: #e5e7eb;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .hero-logo-text {
@@ -59,6 +59,9 @@ a {
   height: 30px;
   border-radius: 8px;
   border-style: none;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .quote {
@@ -69,7 +72,7 @@ a {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .header-links {
@@ -80,7 +83,7 @@ a {
 
 .hero-main-text {
   margin-top: 100px;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .dark-background {
@@ -90,4 +93,9 @@ a {
 .hero-main-section {
   display: flex;
   flex-direction: column;
+}
+
+.hero-main-container {
+  display: flex;
+  justify-content: space-evenly;
 }
