@@ -73,6 +73,16 @@ a {
   background-color: #e5e7eb;
   font-weight: 300;
   font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* help why is it 100px */
+.quote-source {
+  margin-top: 100px;
+  font-style: normal;
+  align-self: flex-end;
+  font-size: 24px;
 }
 
 .header {
