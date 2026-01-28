@@ -1,3 +1,49 @@
 * {
   font-family: "Roboto", Arial, sans-serif;
 }
+
+.hero-logo-text,
+.hero-main-text {
+  color: #f9faf8;
+}
+
+.info-header,
+.hero-main-text {
+  font-weight: 900;
+}
+
+.info-header,
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.dark-background {
+  background-color: #1f2937;
+}
+
+.hero-main-text {
+  font-size: 48px;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-logo-text {
+  font-size: 24px;
+}
+
+.button {
+  color: #3882f6;
+}
+.cta {
+  background-color: #3882f6;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  font-weight: 300px;
+  font-style: italic;
+}
